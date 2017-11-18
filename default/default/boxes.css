@@ -565,12 +565,17 @@ td.divider              { font-size:1px; line-height:0; }
 .wrapper { min-width:960px; }
 .wrapper-popup { min-width:750px; }
 .header { background:url(images/header_top_bg.gif) repeat-x #425e66; text-align:right; }
-.middle { min-height:450px; background:url(images/simple_container_bg.gif) repeat-x #fff; padding:23px 27px 0 27px; }
+.middle {
+    min-height:450px;
+    background:url(images/simple_container_bg.gif) repeat-x #fff;
+    padding-top: 23px;
+}
 .middle-popup { border-bottom:3px solid #fff; background:url(images/middle_bg.gif) repeat-x 0 100% #fff; padding:0 0 0 0; background:yellow; }
 .container-collapsed { padding:1.8em 2.2em 1.8em 2em; padding-top:0; }
 .columns {background:url(images/side_col_bg.gif) repeat-y 217px 0; }
 
 div.side-col { float:left; width:220px; margin-right:-220px; padding-bottom:25px; }
+div.side-col h3 { text-align: center; }
 div.main-col { margin-left:220px; min-height:450px; padding:0 0 25px 25px; }
 div.main-col-inner { float:left; /* Fixes some inner clears in the liquid main-col */ width:100%; }
 
