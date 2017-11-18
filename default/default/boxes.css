@@ -130,7 +130,7 @@
 .grid tr.even, .grid tr.even tr { background:#f6f6f6; } /* Zebra even-row */
 .grid tr.on-mouse               { background:#fcf5dd; cursor:pointer; } /* Rows mouse-over */
 .grid tr.invalid                { background-color:#f5d6c7; }
-.grid th, .grid td              { padding:1px 1px 1px 2px; background: #6f899266; }
+.grid th, .grid td              { padding:1px 1px 1px 2px; background: #aac1a538; }
 .grid th                        { white-space:nowrap; }
 .grid td.editable input.input-text { width:50px !important; margin-left:4px !important; }
 .grid td input.input-text       { width:86%; }
