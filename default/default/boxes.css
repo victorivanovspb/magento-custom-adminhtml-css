@@ -1128,7 +1128,7 @@ ul.item-options li { padding-left:.7em; }
 .custom-options .opt-req {width:80px; }
 .custom-options .opt-order {width:60px; }
 
-.custom-options  .option-box  .border {width:615px; }
+.custom-options  .option-box  .border { }
 
 .custom-options th {white-space:nowrap; }
 .custom-options  .type-title  {width:auto; }
