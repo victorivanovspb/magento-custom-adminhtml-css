@@ -130,7 +130,7 @@
 .grid tr.even, .grid tr.even tr { background:#f6f6f6; } /* Zebra even-row */
 .grid tr.on-mouse               { background:#fcf5dd; cursor:pointer; } /* Rows mouse-over */
 .grid tr.invalid                { background-color:#f5d6c7; }
-.grid th, .grid td              { padding:2px 4px 2px 4px; }
+.grid th, .grid td              { padding:1px 1px 1px 2px; background: #6f899266; }
 .grid th                        { white-space:nowrap; }
 .grid td.editable input.input-text { width:50px !important; margin-left:4px !important; }
 .grid td input.input-text       { width:86%; }
@@ -138,8 +138,8 @@
 .grid td input.input-text-range { width:104px; }
 .grid td input.input-text-range-date { width:87px; }
 .grid td input.input-inactive   { background:#eee; }
-.grid table td                  { border-width:0 1px 1px 0; border-color:#dadfe0; border-style:solid; }
-.grid table.border td           { background:#fff !important; }
+.grid table td                  { border-width:0 1px 1px 0; border-color:#b7c7ca; border-style:solid; }
+.grid table.border td           { }
 .grid table td.first,
 .grid table td.last             { border-right:0; }
 .grid table td.product          { text-align:right; }
@@ -165,7 +165,7 @@ table.actions td                { vertical-align:top; }
 
 /* Grid - Headings */
 .grid tr.headings { background:url(images/sort_row_bg.gif) 0 50% repeat-x; }
-.grid tr.headings th { border-width:1px; border-color:#f9f9f9 #d1cfcf #f9f9f9 #f9f9f9; border-style:solid; padding-top:1px; padding-bottom:0; font-size:.9em; }
+.grid tr.headings th { border-width:1px; border-color:#b7c7ca #d1cfcf #b7c7ca #b7c7ca; border-style:solid; padding-top:1px; padding-bottom:0; font-size:.9em; }
 .grid tr.headings th.last { border-right:0; }
 .grid tr.headings th.no-link { /* Grid th with no sorting functionality */ padding-top:2px; padding-bottom:1px; color:#67767e; }
 .grid tr.headings th span.nobr { display:block; /* FF3 fix */ }
@@ -213,7 +213,7 @@ table.actions td                { vertical-align:top; }
 .grid select.multiselect-export-filter { width:278px; }
 
 /* Grid Footer */
-.grid table tfoot tr            { background:#D7E5EF; }
+.grid table tfoot tr            { }
 .grid table tfoot tr td         { border-top:1px solid #9babb9; background:#e5ecf2; line-height:1.7em; }
 .grid table.border tfoot tr td  { background:#D7E5EF !important; }
 
@@ -1141,7 +1141,10 @@ ul.item-options li { padding-left:.7em; }
 .custom-options  .type-last  {width:auto; }
 
 .custom-options .option-box .border input.input-text,
-.custom-options .option-box .border select.select { width:90% !important; }
+.custom-options .option-box .border select.select {
+    box-sizing: border-box;
+    width:100% !important;
+}
 
 .custom-options .option-box .border .type-last input.input-text { width:60px !important; }
 .custom-options .option-box .border input.type-sku  {width:150px !important; }
