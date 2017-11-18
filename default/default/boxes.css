@@ -138,7 +138,7 @@
 .grid td input.input-text-range { width:104px; }
 .grid td input.input-text-range-date { width:87px; }
 .grid td input.input-inactive   { background:#eee; }
-.grid table td                  { border-width:0 1px 1px 0; border-color:#b7c7ca; border-style:solid; }
+.grid table td                  { border-width:0 1px 1px 0; border-color:#c5d0d3; border-style:solid; }
 .grid table.border td           { }
 .grid table td.first,
 .grid table td.last             { border-right:0; }
@@ -214,8 +214,8 @@ table.actions td                { vertical-align:top; }
 
 /* Grid Footer */
 .grid table tfoot tr            { }
-.grid table tfoot tr td         { border-top:1px solid #9babb9; background:#e5ecf2; line-height:1.7em; }
-.grid table.border tfoot tr td  { background:#D7E5EF !important; }
+.grid table tfoot tr td         { line-height:1.7em; }
+.grid table.border tfoot tr td  { background:#c5d0d3 !important; padding: 3px; }
 
 
 /* Dynamic Grid */ /* Used in pages like Catalog -> Attributes */
